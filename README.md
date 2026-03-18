@@ -1,1 +1,31 @@
-# about
+## Проектные работы с курса "Мидл Java-разработчик"
+
+### Простое приложение-блог.
+
+https://github.com/springRill/myblog  
+В приложении использовано spring, jdbc, thymeleaf, maven.  
+Postgresql запускается в докере.
+Приложение разворачивается на отдельно стоящем tomcat.
+
+https://github.com/springRill/myblog/tree/springboot  
+В приложении использовано Spring Boot, jdbc, thymeleaf, gradle.  
+Postgresql запускается в докере.  
+Приложение запускается через IDE (bootJar), или через консоль, после сборки (java -jar myblog-v2.0.jar).
+
+### Витрина интернет магазина.
+
+https://github.com/springRill/intershop  
+В приложении использовано Spring Boot, Spring Data JPA, thymeleaf, DB H2, maven.  
+Приложение запускается через IDE (IntershopApplication.java).
+
+https://github.com/springRill/intershop/tree/reactive  
+В приложении использовано Spring WebFlux, r2dbc, thymeleaf, DB H2, maven.  
+Приложение запускается через IDE (IntershopApplication.java).
+
+https://github.com/springRill/intershop/tree/rest-and-redis  
+В приложении использовано Spring WebFlux, Spring REST, OpenAPI, Redis, r2dbc, thymeleaf, DB H2, maven.  
+Приложение запускается через docker-compose.yml.  
+
+https://github.com/springRill/intershop/tree/auth
+В приложении использовано OAuth2(keycloak), Spring WebFlux, Spring REST, OpenAPI, Redis, r2dbc, thymeleaf, DB H2, maven.  
+Приложение запускается через docker-compose.yml.  
