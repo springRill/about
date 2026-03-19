@@ -38,4 +38,8 @@ https://github.com/springRill/bankapp
 
 https://github.com/springRill/bankapp/tree/helm-and-jenkins
 В приложении использовано Kubernetes, configmap, OAuth2(keycloak), CI/CD(Jenkins), PostgreSQL.  
-Описание запуска в README.md.
+Описание запуска в `README.md`.  
+
+https://github.com/springRill/bankapp/tree/kafka  
+В приложении использовано Apache Kafka, Kubernetes, configmap, OAuth2(keycloak), CI/CD(Jenkins), PostgreSQL.  
+Описание запуска в `README.md`.  
