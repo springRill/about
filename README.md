@@ -29,3 +29,9 @@ https://github.com/springRill/intershop/tree/rest-and-redis
 https://github.com/springRill/intershop/tree/auth
 В приложении использовано OAuth2(keycloak), Spring WebFlux, Spring REST, OpenAPI, Redis, r2dbc, thymeleaf, DB H2, maven.  
 Приложение запускается через docker-compose.yml.  
+
+### Микросервисное приложение «Банк»
+
+https://github.com/springRill/bankapp
+В приложении использовано OAuth2(keycloak), Service Discovery(Consul), Distributed Configs(Consul), Spring REST, Spring Data JPA, maven, docker.  
+Приложение запускается через docker-compose.yml.  
