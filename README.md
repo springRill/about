@@ -4,12 +4,12 @@
 
 https://github.com/springRill/myblog  
 В приложении использовано spring, jdbc, thymeleaf, maven.  
-Postgresql запускается в докере.
+PostgreSQL запускается в докере.
 Приложение разворачивается на отдельно стоящем tomcat.
 
 https://github.com/springRill/myblog/tree/springboot  
 В приложении использовано Spring Boot, jdbc, thymeleaf, gradle.  
-Postgresql запускается в докере.  
+PostgreSQL запускается в докере.  
 Приложение запускается через IDE (bootJar), или через консоль, после сборки (java -jar myblog-v2.0.jar).
 
 ### Витрина интернет магазина.
@@ -35,3 +35,7 @@ https://github.com/springRill/intershop/tree/auth
 https://github.com/springRill/bankapp
 В приложении использовано OAuth2(keycloak), Service Discovery(Consul), Distributed Configs(Consul), Spring REST, Spring Data JPA, maven, docker.  
 Приложение запускается через docker-compose.yml.  
+
+https://github.com/springRill/bankapp/tree/helm-and-jenkins
+В приложении использовано Kubernetes, configmap, OAuth2(keycloak), CI/CD(Jenkins), PostgreSQL.  
+Описание запуска в README.md.
